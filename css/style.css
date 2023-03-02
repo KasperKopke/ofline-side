@@ -519,17 +519,14 @@ address ul {
   }
 
   .first-of-four {
-    text-align: start;
+    text-align: center;
     max-width: 50%;
-    margin-right: 110px;
   }
   .second-of-four {
     max-width: 100%;
-    margin-right: 260px;
   }
   .third-of-four {
     max-width: 100%;
-    margin-right: 110px;
   }
 
   .fourth-of-four {
