@@ -14,6 +14,7 @@ body {
 
 main {
   max-width: 1170px;
+  padding: 30px;
 }
 
 nav ul {
@@ -320,7 +321,7 @@ h1 {
 }
 
 .first-of-four {
-  max-width: 25%;
+  max-width: 22%;
 }
 .second-of-four {
   max-width: 25%;
