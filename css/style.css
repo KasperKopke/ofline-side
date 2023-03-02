@@ -424,9 +424,10 @@ address ul {
     align-items: center;
   }
   h1 {
-    text-align: flex-;
-    font-size: 40px;
+    text-align: center;
     padding: 20px;
+    font-size: 30px;
+    max-width: 75%;
   }
   .left a {
     padding: 5px 117px;
