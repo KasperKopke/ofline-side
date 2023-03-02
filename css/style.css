@@ -14,7 +14,6 @@ body {
 
 main {
   max-width: 1170px;
-  padding: 30px;
 }
 
 nav ul {
@@ -531,10 +530,6 @@ address ul {
 
   .fourth-of-four {
     max-width: 100%;
-  }
-
-  hr {
-    width: 100%;
   }
 
   .fourth-of-four p {
