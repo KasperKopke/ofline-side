@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   display: flex;
   justify-content: center;
@@ -11,11 +10,9 @@ body {
   flex-direction: column;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 main {
   max-width: 1170px;
 }
-
 nav ul {
   list-style-type: none;
   display: flex;
@@ -25,24 +22,19 @@ nav ul {
   padding: 20px;
   margin-bottom: 120px;
 }
-
 nav ul a {
   text-decoration: none;
   color: black;
 }
-
 nav ul span {
   color: yellow;
 }
-
 nav ul li:first-child {
   margin-right: auto;
 }
-
 header {
   margin-bottom: 90px;
 }
-
 .left {
   display: flex;
   justify-content: center;
@@ -51,11 +43,9 @@ header {
   flex-direction: column;
   gap: 25px;
 }
-
 .left p {
   font-size: 18px;
 }
-
 .left a {
   text-decoration: none;
   color: black;
@@ -63,53 +53,43 @@ header {
 
   background-color: #ffbd73;
 }
-
 .right {
   margin: 20px;
 }
-
 h1 {
   font-size: 60px;
 }
-
 .wrapper {
   display: flex;
   gap: 20px;
 }
-
 .right article {
   min-height: 315px;
   border: 2px solid #e5e5e5;
   padding: 50px;
 }
-
 .right-col span {
   color: green;
 }
 .article-wrapper {
   display: flex;
 }
-
 .right-col {
   display: flex;
 }
 .left-col {
   margin-bottom: 20px;
 }
-
 .left-col img {
   margin-bottom: 25px;
 }
-
 .left-col p {
   font-size: 20px;
 }
-
 .flex-col-right {
   margin: 8px 10px;
   width: 100%;
 }
-
 .video-section article {
   display: flex;
   gap: 10px;
@@ -121,37 +101,30 @@ h1 {
   left: 60px;
   top: 405px;
 }
-
 .video-section {
   margin-bottom: 120px;
 }
-
 .video-section i {
   margin-top: 5px;
   font-size: 25px;
 }
-
 .see-the-face h2 {
   font-size: 40px;
   max-width: 50%;
   margin-bottom: 20px;
 }
-
 .see-the-face-p {
   max-width: 40%;
   color: #bdbdbd;
   margin-bottom: 50px;
 }
-
 .see-the-face article p {
   max-width: 40%;
   color: #bdbdbd;
 }
-
 .see-the-face h3 {
   font-size: 40px;
 }
-
 .see-the-face article {
   border: #bbbbbb 3px solid;
   max-width: 31.5%;
@@ -161,21 +134,18 @@ h1 {
   flex-direction: column;
   padding: 40px;
   gap: 10px;
-
   font-size: larger;
 }
-
 .see-the-face article p {
   max-width: 100%;
 }
-
 .see-the-face-artcile {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   margin-bottom: 100px;
 }
-
 .come-to-life {
   display: flex;
   justify-content: center;
@@ -185,14 +155,12 @@ h1 {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
 .come-to-life h2 {
   font-size: 36px;
   max-width: 35%;
   margin: 80px;
   text-align: center;
 }
-
 .come-to-life h3 {
   font-size: 36px;
   min-width: 100%;
@@ -207,7 +175,6 @@ h1 {
   border-radius: 9px;
   margin-bottom: 20px;
 }
-
 .come-to-life ul {
   list-style-type: none;
   gap: 5px;
@@ -215,26 +182,22 @@ h1 {
   font-size: 20px;
   flex-direction: column;
 }
-
 .come-to-life ul li i {
   margin-right: 10px;
   color: orange;
 }
-
 .text-wrapper {
   display: flex;
 
   justify-content: center;
   align-items: center;
 }
-
 .text-wrapper2 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
 }
-
 .img-col img {
   height: auto;
   width: 400px;
@@ -243,7 +206,6 @@ h1 {
   max-width: 37%;
   margin: 90px 100px;
 }
-
 .text-wrapper2 h4 {
   padding: 5px;
   background-color: #ffbd73;
@@ -253,11 +215,9 @@ h1 {
   border-radius: 9px;
   margin-bottom: 20px;
 }
-
 .qoute-wrapper {
   display: flex;
 }
-
 .qoute {
   display: flex;
   justify-content: center;
@@ -271,7 +231,6 @@ h1 {
   text-align: center;
   max-width: 70%;
 }
-
 .dont-get {
   background-color: black;
   color: white;
@@ -282,13 +241,11 @@ h1 {
   flex-direction: column;
   margin-bottom: 120px;
 }
-
 .dont-get h2 {
   font-size: 40px;
   text-align: center;
   margin-bottom: 40px;
 }
-
 .dont-get a {
   text-decoration: none;
   color: black;
@@ -296,15 +253,17 @@ h1 {
 
   background-color: #ffbd73;
 }
-
 .footer-art-wrapper {
   flex-wrap: wrap;
 }
-
 .footer-art-wrapper span {
-  color: yellow;
+  color: #ffbd73;
 }
-
+.flex-col-right {
+  padding: 5px;
+  margin: 0px 10px;
+  font-size: 25px;
+}
 .footer-art-wrapper article {
   display: flex;
   justify-content: center;
@@ -313,17 +272,16 @@ h1 {
   text-align: start;
   margin-bottom: 80px;
 }
-
 .footer-art-wrapper article h2 {
   margin-bottom: 25px;
-  font-size: 25px;
+  font-size: 35px;
 }
-
 .first-of-four {
   max-width: 22%;
 }
 .second-of-four {
   max-width: 25%;
+  font-size: 30px;
 }
 .second-of-four ul {
   list-style-type: none;
@@ -335,23 +293,19 @@ h1 {
   color: black;
   text-decoration: none;
 }
-
 .third-of-four {
   max-width: 25%;
 }
-
 .august {
   margin-top: 18px;
   font-size: 9px;
 }
-
 .fourth-of-four {
   max-width: 25%;
   display: flex;
   gap: 20px;
   flex-direction: column;
 }
-
 .sub a {
   padding: 15px 20px;
   background-color: #ffbd73;
@@ -359,12 +313,10 @@ h1 {
   min-width: 36%;
   border-radius: 3px;
 }
-
 .sub a {
   text-decoration: none;
   color: black;
 }
-
 input {
   height: 50px;
   width: 260px;
@@ -373,13 +325,11 @@ input {
   padding: 10px;
   font-size: 18px;
 }
-
 ::placeholder {
   color: #ffbd73;
   text-indent: 20px;
   font-size: 15px;
 }
-
 hr {
   width: 100%;
 }
@@ -404,7 +354,6 @@ address ul {
   margin-top: 20px;
   font-size: 30px;
 }
-
 .fa-bars,
 .fa-x {
   display: none;
@@ -412,7 +361,10 @@ address ul {
   top: 15px;
   right: 0;
 }
-
+.video-div {
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 600px) {
   .wrapper {
     flex-direction: column;
@@ -443,21 +395,19 @@ address ul {
   }
   video {
     height: auto;
-    width: 100%;
+    width: 80%;
   }
   .text-wrapper {
     flex-direction: column;
     text-align: center;
     width: 100%;
   }
-
   .come-to-life {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-
   .text-wrapper2 {
     flex-direction: column;
     width: 100%;
@@ -465,7 +415,6 @@ address ul {
   .see-the-face h4 {
     font-size: 25px;
   }
-
   .come-to-life ul {
     font-size: 19px;
   }
@@ -473,14 +422,12 @@ address ul {
     width: 100%;
     text-align: center;
   }
-
   .company a {
     display: flex;
     justify-content: flex-start;
     padding: 0;
     background-color: white;
   }
-
   .left a {
     padding: 25px 53px;
     font-size: 20px;
@@ -496,7 +443,7 @@ address ul {
     align-items: center;
   }
   .see-the-face article {
-    max-width: 100%;
+    max-width: 80%;
   }
   .text-right-col {
     max-width: 100%;
@@ -506,21 +453,23 @@ address ul {
   }
   .see-the-face h2 {
     max-width: 90%;
+    text-align: center;
   }
-
   .see-the-face-p {
     max-width: 80%;
+    text-align: center;
   }
   .footer-art-wrapper article {
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px;
   }
-
   .first-of-four {
-    text-align: center;
-    max-width: 50%;
+    max-width: 100%;
+    font-size: 30px;
+    font-weight: 100;
   }
   .second-of-four {
     max-width: 100%;
@@ -528,17 +477,15 @@ address ul {
   .third-of-four {
     max-width: 100%;
   }
-
   .fourth-of-four {
     max-width: 100%;
   }
-
   .fourth-of-four p {
-    font-size: 20px;
+    font-size: 30px;
     max-width: 100%;
   }
   .fourth-of-four {
-    margin-left: 70px;
+    max-width: 100%;
   }
   nav {
     position: fixed;
@@ -553,7 +500,6 @@ address ul {
     display: none;
     z-index: 999;
   }
-
   nav.active ul {
     display: flex;
     flex-direction: column;
@@ -564,7 +510,6 @@ address ul {
     left: 0;
     transition: all 0.2s ease-in-out;
   }
-
   nav ul {
     position: fixed;
     list-style-type: none;
@@ -583,36 +528,40 @@ address ul {
   nav ul li:first-child {
     margin-right: 0;
   }
-
   .fa-bars {
     display: inline-block;
     position: fixed;
     top: 15px;
   }
-
   nav.active .fa-bars {
     display: none;
     position: fixed;
     top: 15px;
   }
-
   .fa-x {
     display: none;
     position: fixed;
     top: 15px;
   }
-
   nav.active .fa-x {
     display: inline-block;
     position: fixed;
     top: 15px;
   }
-
   nav ul a {
     font-size: 29px;
   }
-
   nav ul li:first-child {
     font-size: 40px;
+  }
+  .right {
+    margin: 46px;
+  }
+  .august {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .img-col img {
+    padding: 30px 0px;
   }
 }
