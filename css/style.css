@@ -464,7 +464,7 @@ address ul {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px;
+    padding: 40px;
   }
   .first-of-four {
     max-width: 100%;
@@ -563,5 +563,7 @@ address ul {
   }
   .img-col img {
     padding: 30px 0px;
+    height: auto;
+    width: 80%;
   }
 }
