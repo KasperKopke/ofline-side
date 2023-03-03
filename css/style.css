@@ -566,4 +566,7 @@ address ul {
     height: auto;
     width: 80%;
   }
+  body {
+    margin-left: 20px;
+  }
 }
