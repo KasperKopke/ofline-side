@@ -364,7 +364,37 @@ address ul {
 .video-div {
   display: flex;
   justify-content: center;
+  position: relative;
 }
+
+.test {
+  position: absolute;
+  bottom: 0;
+  right: 117px;
+  z-index: 20;
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.test2 {
+  position: absolute;
+  bottom: 0;
+  right: 400px;
+  text-align: center;
+  z-index: 20;
+  background-color: black;
+  color: white;
+  padding: 40px 30px;
+}
+video {
+  height: auto;
+  position: relative;
+  right: 0;
+  width: 80%;
+  z-index: 19;
+}
+
 @media screen and (max-width: 600px) {
   .wrapper {
     flex-direction: column;
@@ -395,6 +425,7 @@ address ul {
   }
   video {
     height: auto;
+    position: relative;
     width: 80%;
   }
   .text-wrapper {
@@ -566,5 +597,16 @@ address ul {
     height: auto;
     width: 80%;
     padding-left: 20px;
+  }
+  .video-div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .test {
+    display: none;
+  }
+  .test2 {
+    display: none;
   }
 }
