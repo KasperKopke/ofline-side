@@ -267,7 +267,7 @@ h1 {
 .footer-art-wrapper article {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 27px;
   flex-wrap: wrap;
   text-align: start;
   margin-bottom: 80px;
